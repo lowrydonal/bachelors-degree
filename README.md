@@ -5,7 +5,8 @@ This repository contains the source code and documentation of the final year pro
 
 
 # Outline
-(For the full project report see: )
+(For the full project report see: [Report](https://github.com/lowrydonal/bachelors-thesis/blob/master/Report.pdf))
+
 The purpose of the program is to check whether a certain logo is present in an inputted image. 
 
 The implementation uses a number of pre-processing techniques to first attempt to pinpoint to the location of the logo in an input image.
