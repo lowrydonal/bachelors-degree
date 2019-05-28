@@ -2,4 +2,34 @@
 A Practical Application of Logo Recognition
 
 This repository contains the source code and documentation of the final year project thesis for my bachelor’s degree in Computer Science and Business from the University of Dublin, Trinity College.
+
+
+# Outline
+(For the full project report see: )
+The purpose of the program is to check whether a certain logo is present in an inputted image. The implementation uses a number of pre-processing techniques to first attempt to pinpoint to the location of the logo in an input image.
+
+
  
+
+
+
+
+
+
+
+
+
+The extracted logo sub-image is then compared to a stored image of the logo in question to check if they match. This comparison is done using the SIFT (Scale Invariant Feature Transform) algorithm. 
+
+
+
+
+
+
+
+
+
+
+
+
+Statistical methods were then employed to test the accuracy of the logo recognition.

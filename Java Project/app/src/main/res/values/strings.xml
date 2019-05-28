@@ -1,0 +1,103 @@
+<resources>
+    <string name="app_name">LapSpace</string>
+    <string name="laptop_owner_string">Laptop Owner</string>
+    <string name="company_string">Company</string>
+    <string name="admin_string">Admin</string>
+    <string name="add_laptop_owner_to_case">Add</string>
+    <string name="send_requests_btn">Send Requests</string>
+    <string name="start_verification_button">Begin Verification</string>
+    <string name="demographic_textview">Describe the demographic you wish to advertise to (age, location, occupation) [500 characters]</string>
+    <string name="logo_upload_textview">Upload the image you wish to advertise</string>
+
+
+    <!-- string arrays for spinners -->
+    <string-array name="age_range_array">
+        <item>16-24</item>
+        <item>25-34</item>
+        <item>35-44</item>
+        <item>45-54</item>
+        <item>55-64</item>
+        <item>65+</item>
+    </string-array>
+
+    <string-array name="county_array">
+        <item>Antrim</item>
+        <item>Armagh</item>
+        <item>Carlow</item>
+        <item>Cavan</item>
+        <item>Clare</item>
+        <item>Cork</item>
+        <item>Derry</item>
+        <item>Donegal</item>
+        <item>Down</item>
+        <item>Dublin</item>
+        <item>Fermanagh</item>
+        <item>Galway</item>
+        <item>Kerry</item>
+        <item>Kildare</item>
+        <item>Kilkenny</item>
+        <item>Laois</item>
+        <item>Leitrim</item>
+        <item>Limerick</item>
+        <item>Longford</item>
+        <item>Louth</item>
+        <item>Mayo</item>
+        <item>Meath</item>
+        <item>Monaghan</item>
+        <item>Offaly</item>
+        <item>Roscommon</item>
+        <item>Sligo</item>
+        <item>Tipperary</item>
+        <item>Tyrone</item>
+        <item>Waterford</item>
+        <item>Westmeath</item>
+        <item>Wexford</item>
+        <item>Wicklow</item>
+    </string-array>
+
+    <string name="verify_preview_image_btn">Verify This Image</string>
+    <string name="activate_case_btn">Activate Case</string>
+    <string name="upload_btn">Upload</string>
+    <string name="no_file_uploaded_tv">No file uploaded</string>
+    <string name="laptop_loc_question_tv">Where in public do you use your laptop most?</string>
+    <string name="register_btn">Register</string>
+    <string name="register_as_company_button">Register as Company</string>
+    <string name="register_as_laptop_owner_button">Register as Laptop Owner</string>
+    <string name="login_button">Log In</string>
+    <string name="password_hint">Password</string>
+    <string name="email_login_hint">Email</string>
+    <string name="notifications_drawer_btn">Notifications</string>
+    <string name="verify_drawer_btn">Verify</string>
+    <string name="edit_profile_drawer_btn">Edit Profile</string>
+    <string name="settings_drawer_btn">Settings</string>
+    <string name="image_to_verify_preview_tv">Image to Verify</string>
+    <string name="template_image_preview_tv">Template Image</string>
+    <string name="open_cases_tab">Open Cases</string>
+    <string name="activated_cases_tab">Activated Cases</string>
+    <string name="live_campaigns_tab">Live Campaigns</string>
+    <string name="admin_profile_toolbar_title">Administrator</string>
+    <string name="confirm_btn">Confirm</string>
+    <string name="make_payment_nav_btn">Make Payment</string>
+    <string name="send_requests_label">SEND REQUESTS</string>
+    <string name="accept_offer_btn">Accept Offer</string>
+    <string name="decline_offer_btn">Decline Offer</string>
+    <string name="no_notifications_tv">No Notifications</string>
+    <string name="title_activity_retrieve_lap_profile_details">Sign in</string>
+
+    <!-- Strings related to login -->
+    <string name="prompt_email">Email</string>
+    <string name="prompt_password">Password (optional)</string>
+    <string name="action_sign_in">Sign in or register</string>
+    <string name="action_sign_in_short">Sign in</string>
+    <string name="error_invalid_email">This email address is invalid</string>
+    <string name="error_invalid_password">This password is too short</string>
+    <string name="error_incorrect_password">This password is incorrect</string>
+    <string name="error_field_required">This field is required</string>
+    <string name="permission_rationale">"Contacts permissions are needed for providing email
+        completions."
+    </string>
+    <string name="requests_sent">Requests Sent Successfully</string>
+    <string name="livecampign_created">Live Campaign Created</string>
+
+
+</resources>

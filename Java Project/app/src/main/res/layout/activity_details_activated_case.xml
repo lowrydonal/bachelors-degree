@@ -1,0 +1,107 @@
+<?xml version="1.0" encoding="utf-8"?>
+<FrameLayout xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:orientation="vertical"
+    android:background="@color/colorBackground"
+    tools:context="com.lowry.lapspace3.DetailsActivatedCaseActivity">
+
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:orientation="vertical"
+        android:layout_height="match_parent">
+
+    <android.support.v7.widget.Toolbar
+        android:id="@+id/toolbar_act_details"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_alignParentTop="true"
+        android:background="@color/colorPrimary"
+        android:minHeight="?attr/actionBarSize"
+        android:theme="@style/ThemeOverlay.AppCompat.Dark.ActionBar"
+        app:popupTheme="@style/ThemeOverlay.AppCompat.Light"/>
+
+            <ListView
+                android:layout_width="match_parent"
+                android:layout_height="match_parent"
+                android:id="@+id/act_case_laps_list"></ListView>
+
+    </LinearLayout>
+
+    <LinearLayout
+        android:layout_gravity="bottom|end"
+        android:orientation="horizontal"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content">
+        <TextView
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:id="@+id/convert_label"
+            android:layout_marginTop="9dp"
+            android:textColor="@color/black_text"
+            android:textStyle="bold"
+            android:visibility="invisible"
+            android:text="CONVERT TO LIVE CAMPAIGN"/>
+
+        <android.support.design.widget.FloatingActionButton
+            android:id="@+id/fab_convert"
+            android:layout_width="40dp"
+            android:layout_height="40dp"
+            android:visibility="invisible"
+            android:background="@color/colorPrimary"
+            android:scaleType="center"
+            android:layout_marginLeft="2dp"
+            android:layout_marginStart="16dp"
+            android:layout_marginEnd="25dp"
+            android:layout_marginRight="38dp"
+            android:layout_marginBottom="140dp"
+            android:src="@drawable/ic_done_white_16dp_1x"/>
+    </LinearLayout>
+
+    <LinearLayout
+        android:layout_gravity="bottom|end"
+        android:orientation="horizontal"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content">
+        <TextView
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:id="@+id/add_laps_label"
+            android:layout_marginTop="9dp"
+            android:textColor="@color/black_text"
+            android:textStyle="bold"
+            android:visibility="invisible"
+            android:text="ADD LAPTOP OWNERS"/>
+
+        <android.support.design.widget.FloatingActionButton
+            android:id="@+id/fab_add_laps"
+            android:layout_width="40dp"
+            android:layout_height="40dp"
+            android:visibility="invisible"
+            android:background="@color/colorPrimary"
+            android:scaleType="center"
+            android:layout_marginLeft="2dp"
+            android:layout_marginStart="16dp"
+            android:layout_marginEnd="25dp"
+            android:layout_marginRight="38dp"
+            android:layout_marginBottom="85dp"
+            android:src="@drawable/ic_person_white_18dp"/>
+    </LinearLayout>
+
+
+
+    <android.support.design.widget.FloatingActionButton
+        android:id="@+id/fab_plus_activated_case_details"
+        android:layout_width="wrap_content"
+        android:background="@color/fab_colour"
+        android:layout_height="wrap_content"
+        android:clickable="true"
+        android:layout_gravity="bottom|end"
+        android:layout_margin="16dp"
+        android:src="@drawable/ic_add_white_24dp"/>
+
+</FrameLayout>
+
+

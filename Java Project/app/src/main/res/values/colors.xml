@@ -1,0 +1,36 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <!-- defaults for status and action bars -->
+    <color name="colorPrimary">#55bbeb</color>      <!-- light blue -->
+    <color name="colorPrimaryDark">#3fa0ca</color>  <!-- light blue dark -->
+    <color name="colorBackground">#ffffff</color>  <!-- white -->
+    <color name="colorBlackText">#4d4e50</color>
+    <color name="colorGreyText">#818181</color>
+    <color name="fab_colour">#468c00</color>
+    <color name="colorAccent">#FF4081</color>
+
+
+    <!-- important colours -->
+    <color name="turquoise">#38cad9</color>         <!-- main colour -->
+    <color name="black">#121212</color>             <!-- status bar -->
+    <color name="light_black">#222326</color>       <!-- action bar nav bar -->
+
+
+    <color name="white">#ffffff</color>
+    <color name="blackTextColor">#212121</color>
+
+    <color name="light_blue">#55bbeb</color>
+    <color name="light_blue_dark">#3fa0ca</color>
+    <color name="white_bg">#ffffff</color>
+    <color name="black_text">#4d4e50</color>
+    <color name="grey_text">#818181</color>
+    <color name="green">#6fc143</color>
+
+    <color name="listBoldText">#737373</color>
+    <color name="listMetaText">#8b8b8b</color>
+
+    <color name="green_btn">#458B00</color>
+    <color name="red_btn">#CC3232</color>
+
+
+</resources>

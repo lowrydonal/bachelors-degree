@@ -1,0 +1,69 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:id="@+id/activity_verify_image"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:orientation="vertical"
+    android:paddingBottom="@dimen/activity_vertical_margin"
+    android:paddingLeft="@dimen/activity_horizontal_margin"
+    android:paddingRight="@dimen/activity_horizontal_margin"
+    android:paddingTop="@dimen/activity_vertical_margin"
+    tools:context="com.lowry.lapspace3.GetImagesActivity">
+
+    <TextView
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:textAppearance="@style/TextAppearance.AppCompat.Body1"
+        android:textColor="@color/grey_text"
+        android:textStyle="bold"
+        android:layout_centerHorizontal="true"
+        android:id="@+id/tv1"
+        android:layout_marginTop="8dp"
+        android:textSize="9pt"
+        android:text="@string/template_image_preview_tv"/>
+
+    <ImageView
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_marginTop="8dp"
+        android:layout_below="@id/tv1"
+        android:layout_centerHorizontal="true"
+        android:id="@+id/iv1"/>
+
+
+    <TextView
+        android:layout_width="wrap_content"
+        android:textAppearance="@style/TextAppearance.AppCompat.Body1"
+        android:textColor="@color/grey_text"
+        android:textStyle="bold"
+        android:textSize="9pt"
+        android:layout_marginTop="8dp"
+        android:id="@+id/tv2"
+        android:layout_below="@id/iv1"
+        android:layout_centerHorizontal="true"
+        android:layout_height="wrap_content"
+        android:text="@string/image_to_verify_preview_tv"/>
+
+    <ImageView
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_marginTop="8dp"
+        android:layout_below="@id/tv2"
+        android:layout_centerHorizontal="true"
+        android:id="@+id/iv2"/>
+
+    <Button
+        android:text="Verify this Image"
+        android:layout_width="@dimen/login_et_width"
+        android:layout_height="@dimen/button_height"
+        android:layout_centerHorizontal="true"
+        android:textColor="@color/white"
+        android:layout_marginTop="8dp"
+        android:background="@drawable/my_button"
+        android:textAppearance="@style/TextAppearance.AppCompat.Button"
+        android:textStyle="bold"
+        android:layout_below="@id/iv2"
+        android:id="@+id/btn_verify_preview"
+        />
+</RelativeLayout>

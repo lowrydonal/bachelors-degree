@@ -1,0 +1,148 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    android:id="@+id/activity_register_co"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:layout_gravity="top"
+    android:background="@color/colorPrimary"
+    android:orientation="vertical"
+    tools:context="com.lowry.lapspace3.EditProfileCoActivity">
+
+    <android.support.v7.widget.Toolbar
+        android:id="@+id/toolbar_edit_co"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_alignParentTop="true"
+        android:background="@color/colorPrimary"
+        android:minHeight="?attr/actionBarSize"
+        android:theme="@style/ThemeOverlay.AppCompat.Dark.ActionBar"
+        app:popupTheme="@style/ThemeOverlay.AppCompat.Light"/>
+
+    <fragment
+        android:name="com.lowry.lapspace3.FragmentProgressBar"
+        android:id="@+id/progress_frag_edit_co"
+        android:layout_weight="1"
+        android:layout_width="0dp"
+        android:layout_height="match_parent"
+        tools:ignore="Suspicious0dp" />
+
+    <EditText
+        android:layout_marginLeft="@dimen/activity_horizontal_margin"
+        android:layout_marginRight="@dimen/activity_horizontal_margin"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:textColorHint="@color/white"
+        android:backgroundTint="@color/white"
+        android:layout_below="@id/toolbar_edit_co"
+        android:textCursorDrawable="@null"
+        android:inputType="textPersonName"
+        android:ems="10"
+        android:hint="Company Name"
+        android:id="@+id/et_co_name" />
+
+
+    <EditText
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:textColorHint="@color/white"
+        android:layout_below="@+id/et_co_name"
+        android:layout_marginLeft="@dimen/activity_horizontal_margin"
+        android:layout_marginRight="@dimen/activity_horizontal_margin"
+        android:layout_marginTop="@dimen/activity_vertical_margin"
+        android:backgroundTint="@color/white"
+        android:textCursorDrawable="@null"
+        android:inputType="textEmailAddress"
+        android:ems="10"
+        android:hint="Email"
+        android:id="@+id/et_co_email" />
+
+    <TextView
+        android:layout_marginLeft="@dimen/activity_horizontal_margin"
+        android:layout_marginRight="@dimen/activity_horizontal_margin"
+        android:layout_marginTop="@dimen/activity_vertical_margin"
+        android:layout_marginBottom="6dp"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:textColor="@color/white"
+        android:textStyle="bold"
+        android:layout_below="@id/et_co_email"
+        android:text="@string/logo_upload_textview"
+        android:id="@+id/tv_logo_upload" />
+
+    <LinearLayout
+        android:layout_width="wrap_content"
+        android:orientation="horizontal"
+        android:id="@+id/lin_layout"
+        android:layout_below="@+id/tv_logo_upload"
+        android:layout_marginLeft="@dimen/activity_horizontal_margin"
+        android:layout_marginRight="@dimen/activity_horizontal_margin"
+        android:layout_marginBottom="@dimen/activity_vertical_margin"
+        android:layout_height="wrap_content">
+
+        <Button
+            android:layout_height="@dimen/button_height"
+            android:textColor="@color/white"
+            android:layout_centerHorizontal="true"
+            android:textAppearance="@style/TextAppearance.AppCompat.Button"
+            android:background="@drawable/my_button"
+            android:textStyle="bold"
+            android:layout_width="wrap_content"
+            android:id="@+id/btn_upload"
+            android:text="@string/upload_btn" />
+
+        <TextView
+            android:layout_width="wrap_content"
+            android:paddingLeft="16dp"
+            android:textColor="@color/white"
+            android:layout_height="wrap_content"
+            android:text="@string/no_file_uploaded_tv"
+            android:id="@+id/uploaded_im_tv"/>
+    </LinearLayout>
+
+
+    <TextView
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_below="@+id/lin_layout"
+        android:layout_marginLeft="@dimen/activity_horizontal_margin"
+        android:layout_marginRight="@dimen/activity_horizontal_margin"
+        android:layout_marginTop="@dimen/activity_vertical_margin"
+        android:id="@+id/describe_tv"
+        android:textColor="@color/white"
+        android:textStyle="bold"
+        android:text="@string/demographic_textview" />
+
+    <EditText
+        android:layout_below="@id/describe_tv"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:textColorHint="@color/white"
+        android:layout_marginLeft="@dimen/activity_horizontal_margin"
+        android:layout_marginRight="@dimen/activity_horizontal_margin"
+        android:layout_marginBottom="@dimen/activity_vertical_margin"
+        android:backgroundTint="@color/white"
+        android:textCursorDrawable="@null"
+        android:hint="Description"
+        android:maxLength="500"
+        android:id="@+id/et_demographic_desc"/>
+
+
+    <Button
+        android:text="@string/confirm_btn"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_below="@+id/et_demographic_desc"
+        android:layout_marginLeft="@dimen/activity_horizontal_margin"
+        android:layout_marginRight="@dimen/activity_horizontal_margin"
+        android:layout_marginBottom="@dimen/activity_vertical_margin"
+        android:layout_marginTop="@dimen/activity_vertical_margin"
+        android:layout_centerHorizontal="true"
+        android:background="@drawable/my_button"
+        android:textColor="@color/white"
+        android:textAppearance="@style/TextAppearance.AppCompat.Button"
+        android:textStyle="bold"
+        android:id="@+id/btn_co_edit" />
+
+</RelativeLayout>
